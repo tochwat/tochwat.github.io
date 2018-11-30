@@ -1,0 +1,80 @@
+<!-- CSS Stylesheets with Relative Paths -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding 0;
+    }
+    body {
+      background: #EFEEE7;
+      color: #473634;
+
+    }
+    a {
+      color:#D4304C;
+    }
+    header h1 {
+      text-align: center;
+      background: #333333;
+      color: white;
+      margin: 0;
+      padding: .5em;
+    }
+    .content {
+      padding: 0 1em;
+      overflow: auto;
+    }
+    .bio {
+      float: left;
+      width: 75%;
+      overflow: auto;
+      
+    }
+    .contact {
+      float: right;
+      width: 25%;
+    }
+
+    .bio img {
+      float: left;
+      padding-right: 1em;
+      padding-bottom: 1em;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <div class="content">
+
+    <section class="bio">
+
+      <h2>Your Name</h2>
+
+      <img src="https://placehold.it/200x200" alt="Your Name">
+
+      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </section>
+  </div>
+
+</body>
+
+</html>
