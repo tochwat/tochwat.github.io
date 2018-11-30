@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: rgb(79, 79, 79);
+
+}
+
+header h1 {
+    background-color: dimgray;
+    color: white;
+    padding: .5em;
+
+}
+
+.info {
+    float: left;
+    width: 65%;
+    padding-left: 1em;
+
+}
+
+.contact {
+    float: right;
+    width: 30%;
+    padding-right: 1em;
+    
+}
